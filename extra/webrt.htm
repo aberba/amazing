@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>WebRT Demo</title>
+</head>
+<body>
+ <video style="width: 300px; height: 200px; margin: 30px auto;"></video>
+
+<script type="text/javascript">
+    navigator.getUserMedia = navigator.mozGetUserMedia || navigator.webkitGetUserMedia;
+
+    window.onload = function() {
+
+    	navigator.getUserMedia({video: true, audio: true}, function(stream) {
+            var vid = document.querySelector("video");
+
+            vid.src = window.URL.createObjectURL(stream);
+            vid.play();
+    	}, function() {
+    		console.log("error");
+    	});
+    }
+</script>
+
+</body>
+</html>

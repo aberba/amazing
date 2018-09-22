@@ -1,0 +1,53 @@
+{
+	"thumbs": {
+        "services": {
+        	"title":"Our Services",
+        	"photo":"thumb.png",
+        	"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        "projects": {
+        	"title":"Our Recent Projects",
+        	"photo":"thumb.png",
+        	"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+	},
+
+	"services": [
+	   {
+	   	    "title": "Web Designing",
+	   	    "photo": "web-designing.png",
+	   	    "alt": "A Web responsive web design", 
+	   	    "description": "<p>We design your web application with modern flavour.</p>"
+	   }, {
+	   	    "title": "Web Deveploment",
+	   	    "photo": "web-development.png",
+	   	    "alt": "Programming a web aplication ",
+	   	    "description": "We program your web application to be robust and efficient."
+	   }, {
+	   	    "title": "Joomla CMS Services",
+	   	    "photo": "joomla-services.png",
+	   	    "alt": "Web devepoment with Joomla CMS",
+	   	    "description": "We build Joomla CMS customized web applications for e-commerce, social media and blogging."		   
+	   	}	    
+	], 
+
+	"projects": [
+	   {
+	   	    "title": "Campus Updates",
+	   	    "photo": "campus-updates.png",
+	   	    "alt": "Campus Updates Project built by us",
+	   	    "description": "Campus Updates web application was bulit from scratch and customised for an online communty",
+	   	    "link": "#"
+	   }, {
+	   	   "title": "Opal Energy Solutions",
+	   	   "photo": "opal-energy.png",
+	   	   "alt": "Opal Energy Solutions Project built by us",
+	   	   "description": "Opal Energy Solutions is a web application for advertisng elctronic products. We deveped it to be customisable for any other product"
+	    }
+	],
+
+	"info": {
+	    "year": "2015"
+	}
+}
